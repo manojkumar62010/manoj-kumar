@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.head{
+    text-align: center;
+    position: relative;
+}
+
+.image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    position: absolute;
+    
+}
+.image img{
+    width: 400px;
+    height: 300px;
+    /* justify-content:space-around; */
+    border-radius:1px ;
+    box-shadow:4px 7px 7px 0px #00000042  ;
+    cursor: pointer;
+    transition: 400ms;
+    margin: 15px;
+}
+
+.word{
+    position: relative;
+}
+a{
+    text-decoration: none;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    opacity: 0;  
+}
+a:hover{
+    opacity: 1;
+    color: white;
+    /* transition: all; */
+}
+.image img:hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}

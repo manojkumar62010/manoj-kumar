@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset > <!-- for rectagular boreder of the form-->
+            <legend>login us</legend>
+
+            <!-- only for text use type="text" -->
+        <label for="Username">Firstname:</label><br>
+        <input type="text" size="30"
+        required="required" placeholder="first name" name="Firstname:">
+        <br><br>
+        <label for="Lastname">Lastname</label><br>
+        <input type="text" size="30" required="required" placeholder="lastname" name="Lastname">
+        <br><br>
+        <!-- for passwor use type="password" -->
+        <label for="Password">Pasword</label>
+        <br>
+        <input type="password" required="required" placeholder="password" name="password">
+        <br><br>
+        <!-- for date of birth use type="date" -->
+        <label for="dob">DOB:-</label>
+        <input type="date" required="required" name="dob">
+        <br><br>
+        <!-- for mobile number use type="number" -->
+        <label for="Mobile">MObile:-</label>
+        <input type="number" required="required" name="Mobile" id="">
+        <br><br>
+       <!-- for radio button use type="radio" -->
+        <label for="gender">Gender:</label>
+        <input type="radio"  name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+           <!-- for checkbox use type="checkbox" -->
+        <label for="Select courses">select courses:-</label><br>
+        <input type="checkbox" name="select courses" value="web design">web design
+        <input type="checkbox" name="select courses" value="software engineering">software engineering
+        <br><br>
+            <!--  texarea (feedback) for use textarea tag -->
+        <label for="Address">Address</label>
+        <br>
+        <textarea name="Address" required="required" id="Address" cols="30" rows="10"></textarea>
+        <!-- for button use type="submit" -->
+        <input type="submit" value="login">
+        <br><br>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+let date = new Date();
+console.log(date);
+console.log('namaste duniya version 2');
+let a=5;
+let b=6;
+console.log(a+b);
+let lastName='manoj';
+console.log(lastName);
+lastName=3;
+console.log(lastName);
