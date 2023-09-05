@@ -1,0 +1,9 @@
+/* css Animation */ 
+/* To animate css elements */
+ /* @keyframe myName {  /* use of anything in the place of myName like name ,manoj,college
+    from{font-size:20px:} // from means starting status and to means final value
+    to{font-size:40px:} */ 
+
+    .box{
+      height: 100px;
+    }
