@@ -1,0 +1,17 @@
+/* top to bottom approach */h1{
+    color: green;
+
+}
+.mypara{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0,0,59);
+
+}
+#subheading{
+    color: brown;
+    font-size: 30px;
+}
+.red{
+    background-color: red;
+}

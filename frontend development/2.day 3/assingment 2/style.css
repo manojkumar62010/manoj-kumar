@@ -1,0 +1,36 @@
+header{
+    background-color: bisque;
+}
+.main{
+    position: relative;
+    /* display: flex;
+    width: 100%;
+    gap: 10px; */
+    background-color: aquamarine;
+}
+
+
+.list{
+    position: absolute;
+    /* width: 50%; */
+    bottom: 42%;
+    left:70%;
+    font-size:xx-large;
+    
+}
+.prize{
+    background-color: rgb(177, 236, 238);
+}
+p::first-line{
+    color: blue;
+}
+.btn{
+    position: absolute;
+    right: 50%;
+    transition: 1s;
+}
+/* hover */
+.btn:hover{
+    background-color: blueviolet;
+    font-size: large;
+}

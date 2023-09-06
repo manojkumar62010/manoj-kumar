@@ -4,6 +4,57 @@
     from{font-size:20px:} // from means starting status and to means final value
     to{font-size:40px:} */ 
 
+    /* CSS Animation */
+    /* .animation-name : fontAnimation
+    .animation-duration
+    .animation-timing-function
+    animation-delay
+    animation-iteration-count : how much you want to show the animation .eg infite time,3 times
+    .animation-direction : which direction you want : normal- starting to ending, reverse- ending to starting,alternate and alternate-reverse
+
+     */
+
     .box{
       height: 100px;
+      width: 300px;
+      background-color: pink;
+
+      /* animation-name: fontAnimation; */
+      /* animation-name:  colorAnimation; */
+      /* animation-name: widthAnimation;
+      animation-duration: 2s;
+      animation-timing-function: ease-in;
+      animation-delay: 0s;
+      animation-iteration-count: 3;
+      animation-direction: normal; */
+      /* animation-direction: alternate; */
+
+      /* shorthand */
+      animation: widthAnimation 3s ease-in 0s infinite normal;
+
+
     }
+    @keyframes fontAnimation{
+      from{
+        font-size: 20px;
+      }
+      to{
+        font-size: 50px;
+      }
+    }
+     @keyframes colorAnimation{
+      from{
+        background-color: yellow;
+      }
+      to{
+        background-color: blue;
+      }
+     }
+      @keyframes widthAnimation{
+        from{
+          width: 50px;
+        }
+        to{
+          width: 200px;
+        }
+      }
