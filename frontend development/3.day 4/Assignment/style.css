@@ -1,0 +1,42 @@
+header{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-shot-top-mountain_181624-21611.jpg?w=1060&t=st=1694167710~exp=1694168310~hmac=eb58ebcd56faf3a612fb8ec01f25ecaa260ce6280a210146b276dc5da5b2333d);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: auto;
+    margin: auto;
+}
+.main{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+.second-main{
+    position: absolute;
+    top: 50px;
+
+}
+.subheader{
+/* position: absolute; */
+/* display: inline; */
+text-align: center;
+
+}
+.header{
+    font-size: 8rem;
+    display: inline;
+    
+    /* position: absolute; */
+    /* bottom: 5px; */ 
+}
+ .sub-header{
+    text-align: center;
+ }
+ button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 230px;
+ }

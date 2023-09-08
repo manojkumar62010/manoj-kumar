@@ -1,0 +1,68 @@
+/* mediaquery use for responsive the website like mobile screen,tab screen,desktop screen */
+/* media features-width(viewport) */
+/* @media(width:400px){
+    div{
+        background-color:black}
+     }
+      */
+      h1{
+        background-color: aqua;
+      }
+      @media (min-width:1000px){
+        h1{
+            background-color: black;
+            color: aliceblue;
+        
+        }
+        div{
+          width: 100px;
+          height: 100px;
+          background-color: green;
+        }
+      }
+
+      /* @media(min-width:400px)
+      {
+       } */
+       @media(min-width:800px){
+        h1{
+          background-color: rgb(248, 42, 77);
+        }
+       }
+       /* @media(max-width:400px){
+        } */
+        @media(max-width:900px){
+          h1{
+            background-color: blue;
+          }
+        }
+        /* together we can use min width and max- width , range set by AND
+        @media(min-width:400px)and (min-width:600px)
+        {
+          div{
+            background-color:green;
+            }
+            }
+              */
+              @media(min-width:300px) and (max-width:900px){
+                h1{
+                  background-color: cadetblue;
+                }
+              }
+
+              /*  Oerientation (of viewport) */
+              /* @media(orientation:landscape){
+                div{
+                  background-color:red
+                 }
+                 }
+                  */
+                  @media(orientation:landscape){
+                    h1{
+                      background-color: bisque;
+                     color: blue;
+                  
+                    }
+                  }
+    
+       

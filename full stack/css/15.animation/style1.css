@@ -1,0 +1,42 @@
+/* animation in percentage i.e stage by stage work like 0%,50%,and 100% */
+/*  @keyframes myName{
+    0%{font-size:20px;}
+    50%{font-size:50px;}
+    100%{font-size:70px;}
+         */
+    .box{
+        height: 100px;
+        width: 300px;
+        background-color: pink;
+  
+        /* animation-name: fontAnimation; */
+        /* animation-name:  colorAnimation; */
+        /* animation-name: widthAnimation;
+        animation-duration: 2s;
+        animation-timing-function: ease-in;
+        animation-delay: 0s;
+        animation-iteration-count: 3;
+        animation-direction: normal; */
+        /* animation-direction: alternate; */
+  
+        /* shorthand */
+        animation: colorAnimation 3s ease-in 0s infinite normal;
+  
+      }
+      @keyframes colorAnimation{
+        0%{
+            background-color: blue;
+        }
+        25%{
+            background-color: brown;
+        }
+        50%{
+            background-color: black;
+        }
+        75%{
+            background-color: yellow;
+        }
+        100%{
+            background-color: azure;
+        }
+      }
