@@ -1,0 +1,15 @@
+.display-inline  p{
+    display: inline;
+    background-color: blue;
+    height: 20px;
+}
+.display-block p{
+    display: block;
+    background-color: blue;
+    height: 20px;
+}
+.display-inline-block p{
+    display: inline-block;
+    background-color: blue;
+    height: 20px;
+}
