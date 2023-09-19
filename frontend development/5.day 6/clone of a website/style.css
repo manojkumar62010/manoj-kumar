@@ -1,31 +1,26 @@
-.conatiner{
-    margin:0 ;
-    padding: 0;
-    box-sizing: border-box;
-    position: relative;
+body {
+    font-family: 'Poppins';
+}
 
+nav ul li {
+    display: inline;
+    padding-right: 15px;
 }
-.header{
-    display: flex;
-    gap: 40rem;
-    justify-content: space-around ;
 
-}
-.navbar ul{
+.logo {
     display: flex;
-    gap: 25px;
-    
+    align-items: center;
 }
-ul li{
-    
-    list-style: none;
-    font-size: larger;
-}
-ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 .header-container {
     width: 500px;
@@ -42,24 +37,15 @@ ul li a{
     font-size: 60px;
     font-weight: 700;
 }
-.cards{
-    display: flex;
-    /* margin: auto; */
-    /* gap: 40px; */
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
-.card{
-    width: 250px;
-    height: 100px;
-    font-size: large;
-}
-.bg-dark {
-    background-color: #232323;
-    color: #fff;
-}
 .container-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -72,11 +58,157 @@ ul li a{
     align-items: center;
     justify-content: center;
 }
+
+.bg-dark {
+    background-color: #232323;
+    color: #fff;
+}
 .section-title{
     font-size: 45px;
 }
+.grey-section{
+    background-color: #ddd;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.custom-container{
+    width: 80%;
+    margin: auto;
+}
+.blog-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+.socials{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.socials i{
+    background-color: #232323;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
 
 
+/* responsive for tablet */
+@media only screen and (max-width:768px){
+    .web-title {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .header-container {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        background-color: #fea50096;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cc-title{
+        font-size: 20px;
+    }
+    .cc-content{
+        font-size: 15px;
+    }
+    .container-2 {
+                grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        padding: 0px !important;
+    }
+    .text-content{
+        padding: 3%;
+        font-size: 80%;
+    }
+    .section-title{
+        font-size: 25px;
+    }
+    .blog-container{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        width: 100%;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+}
+/* responsive for mobile */
+@media only screen and (max-width:426px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .header-container {
+        width: 280px;
+        height: 280px;
+        margin: auto;
+        background-color: #fea50096;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery img{
+        width: 424px;
+    }
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr !important;
+        /* width: 100%; */
+    }
+    .menu ul li {
+        display: flex;
+        flex-direction: column;
+    }
+    .cc-title{
+        font-size: 15px;
+    }
+    .cc-content{
+        font-size: 10px;
+    }
+    .image-content{
+        width: 80%;
+    }
+    .text-content{
+        padding: 2%;
+        font-size: 60%;
+    }
+    .section-title{
+        font-size: 20px;
+    }
+    .blog-container{
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 100px;
+        width: 100%;
+    }
+    .blog-card img{
+        width: 420px;
+        height: 400px;
+    }
+}
 
-
-
+    

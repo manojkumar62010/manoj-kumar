@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://images.pexels.com/photos/139764/pexels-photo-139764.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="d-block " alt="..." width="100%" height="600px">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images.pexels.com/photos/2874998/pexels-photo-2874998.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="d-block " alt="..." width="100%" height="600px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/296649/pexels-photo-296649.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="d-block" alt="..." width="100%" height="600px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/8369526/pexels-photo-8369526.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="d-block" alt="..." width="100%" height="600px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/2983401/pexels-photo-2983401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="d-block" alt="..." width="100%" height="600px">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.pexels.com/photos/698922/pexels-photo-698922.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="d-block" alt="..." width="100%" height="600px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <div class="container d-flex gap-5 ">
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/3775553/pexels-photo-3775553.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="card-img-top" alt="..." width="100%" height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/3024995/pexels-photo-3024995.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                class="card-img-top" alt="..." width="100%" height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://images.pexels.com/photos/7545251/pexels-photo-7545251.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="card-img-top" alt="..." width="100%" height="200px">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;" width="100%" height="200px">
+            <img src="https://media.istockphoto.com/id/1137463129/photo/businessman-looking-forwards.jpg?s=612x612&w=0&k=20&c=_w_nZAPX3b1je5MmPiyTPZjl4rMo10ctup3xUNOY5R4="
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="conatiner d-flex gap-5">
+
+
+        <div>
+            <h2>Lorem ipsum dolor sit amet.
+            </h2>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, veritatis?</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus ex beatae dicta nemo id consectetur
+                et laboriosam quia, sint deleniti repellat quidem vitae aliquid laudantium impedit, cupiditate eos
+                nostrum necessitatibus maiores eius nam libero molestias rem ea. Iste, totam! Earum explicabo sit
+                consequuntur aliquid veniam voluptatem non culpa dolore modi inventore reprehenderit velit consectetur
+                delectus quibusdam alias harum dignissimos, ullam nemo repudiandae maiores laudantium quo sed illum
+                exercitationem! Iure illum debitis sequi eius quos inventore accusamus quae. Reprehenderit nostrum, sed
+                veniam debitis minima incidunt quae vitae sequi? Necessitatibus sint harum iste eos voluptatibus id ea
+                quam laborum, vero ut, sed nisi ipsa! A, aspernatur repellat molestiae dolorem dignissimos odio ullam
+                eaque minus, veritatis iste reiciendis, autem nostrum aliquid similique accusamus officia ea aperiam!
+                Similique, velit qui quas eos adipisci dolore aliquid voluptate fuga, atque omnis nostrum odio eaque
+                voluptas, vitae quos optio. Dolorum quae voluptate praesentium modi itaque eius suscipit maxime quia
+                pariatur, molestiae facilis qui consequuntur! Ipsum, quos dolor suscipit illum at nulla dignissimos!
+                Explicabo blanditiis nihil iusto magnam! Id similique nisi minus ex maiores et, odit ratione minima.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt placeat sunt, quos beatae esse fugiat
+                vitae totam ipsum exercitationem ea accusamus quia reiciendis reprehenderit tenetur expedita unde cum
+                voluptate magnam obcaecati nobis molestiae rem facere provident. Eaque officia distinctio voluptatum in
+                voluptates suscipit, doloribus expedita perspiciatis non, incidunt at accusamus!</p>
+        </div>
+        <div>
+            <img src="https://media.istockphoto.com/id/1302109523/photo/the-rays-of-the-setting-sun-make-their-way-through-a-piece-of-rock-and-a-travelers-backpack.jpg?s=612x612&w=0&k=20&c=VTnBP5qjLSxr-xxd8M1B3mOkahPB64rlp2gTghgIheQ="
+                alt="" width="600px" height="470px">
+        </div>
+    </div>
+    <br>
+
+    <div class="conatiner d-flex gap-5">
+
+        <div>
+            <img src="https://media.istockphoto.com/id/1302109523/photo/the-rays-of-the-setting-sun-make-their-way-through-a-piece-of-rock-and-a-travelers-backpack.jpg?s=612x612&w=0&k=20&c=VTnBP5qjLSxr-xxd8M1B3mOkahPB64rlp2gTghgIheQ="
+                alt="" width="600px" height="470px">
+        </div>
+        <div>
+            <h2>Lorem ipsum dolor sit amet.
+            </h2>
+            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, veritatis?</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus ex beatae dicta nemo id consectetur
+                et laboriosam quia, sint deleniti repellat quidem vitae aliquid laudantium impedit, cupiditate eos
+                nostrum necessitatibus maiores eius nam libero molestias rem ea. Iste, totam! Earum explicabo sit
+                consequuntur aliquid veniam voluptatem non culpa dolore modi inventore reprehenderit velit consectetur
+                delectus quibusdam alias harum dignissimos, ullam nemo repudiandae maiores laudantium quo sed illum
+                exercitationem! Iure illum debitis sequi eius quos inventore accusamus quae. Reprehenderit nostrum, sed
+                veniam debitis minima incidunt quae vitae sequi? Necessitatibus sint harum iste eos voluptatibus id ea
+                quam laborum, vero ut, sed nisi ipsa! A, aspernatur repellat molestiae dolorem dignissimos odio ullam
+                eaque minus, veritatis iste reiciendis, autem nostrum aliquid similique accusamus officia ea aperiam!
+                Similique, velit qui quas eos adipisci dolore aliquid voluptate fuga, atque omnis nostrum odio eaque
+                voluptas, vitae quos optio. Dolorum quae voluptate praesentium modi itaque eius suscipit maxime quia
+                pariatur, molestiae facilis qui consequuntur! Ipsum, quos dolor suscipit illum at nulla dignissimos!
+                Explicabo blanditiis nihil iusto magnam! Id similique nisi minus ex maiores et, odit ratione minima.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt placeat sunt, quos beatae esse fugiat
+                vitae totam ipsum exercitationem ea accusamus quia reiciendis reprehenderit tenetur expedita unde cum
+                voluptate magnam obcaecati nobis molestiae rem facere provident. Eaque officia distinctio voluptatum in
+                voluptates suscipit, doloribus expedita perspiciatis non, incidunt at accusamus!</p>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

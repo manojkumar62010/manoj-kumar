@@ -112,6 +112,8 @@ margin-top: 10px;
     align-items: center;
 }
 /* footer */
+
+/* footer */
 .footer{
     display: flex;
     flex-direction: column;
@@ -172,6 +174,21 @@ input{
     width: 80px;
     background-color: #19ddc4;
     border: 1px solid white;
+}
+.subnav ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 5px;
+    font-size: small;
+}
+.subnav ul li a{
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    
+}
+.subnav ul li{
+    list-style: none;
 }
 .subnav ul{
     display: flex;

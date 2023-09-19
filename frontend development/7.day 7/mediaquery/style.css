@@ -1,0 +1,32 @@
+/*
+1440px 15in
+1024px 13in
+728px   tablets
+425px   mobiles 
+ */
+
+
+@media(max-width:780px){
+   h1{
+
+    background-color:yello;
+}
+}
+.wraper{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.element{
+    width:300px;
+    border:1px solid black;
+    background-color: aquamarine;
+}
+
+@media only screen and (max-width:780px)
+{
+    .wraper{
+
+    }
+    
+}
