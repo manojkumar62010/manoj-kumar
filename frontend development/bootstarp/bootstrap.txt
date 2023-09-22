@@ -1,0 +1,45 @@
+ for container-
+  
+                Extra small Small    Medium    Large   X-Large  XX-Large
+                 <576px     ≥576px   ≥768px     ≥992px ≥1200px ≥1400px
+                 -------------------------------------------------------
+.container	    100%	540px	720px	960px	1140px	1320px
+.container-sm	100%	540px	720px	960px	1140px	1320px
+.container-md	100%	100%	720px	960px	1140px	1320px
+.container-lg	100%	100%	100%	960px	1140px	1320px
+.container-xl	100%	100%	100%	100%	1140px	1320px
+.container-xxl	100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100%
+
+--------------------------------------------------------------------------------------------------------------------
+for grids 
+........................
+Extra small (xs)
+Small (sm)
+Medium (md)
+Large (lg)
+Extra large (xl)
+Extra extra large (xxl)
+
+	xs
+<576px	sm
+≥576px	md
+≥768px	lg
+≥992px	xl
+≥1200px	xxl
+≥1400px
+Container max-width	None (auto)	540px	720px	960px	1140px	1320px
+Class prefix	.col-	.col-sm-	.col-md-	.col-lg-	.col-xl-	.col-xxl-
+# of columns	12
+Gutter width	1.5rem (.75rem on left and right)
+Custom gutters	Yes
+Nestable	Yes
+Column ordering	Yes
+
+-------------------------------------------------------------------
+columns break 
+.....
+.col-sm-5 .col-md-6
+.col-sm-5 .offset-sm-2 .col-md-6 .offset-md-0
+.col-sm-6 .col-md-5 .col-lg-6
+.col-sm-6 .col-md-5 .offset-md-2 .col-lg-6 .offset-lg-0

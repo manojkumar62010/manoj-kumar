@@ -5,3 +5,8 @@
 .custum-3{
     border-radius: 10px;
 }
+.custom-4{
+    grid-template-columns: repeat(2,1fr);
+    /* margin-left: 10px; */
+    gap: 10px;
+}
