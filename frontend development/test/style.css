@@ -50,6 +50,7 @@ body{
     background-size: cover;
     height: 90vh;
     position: relative;
+    /* background-attachment: fixed; */
 }
 .main-sec p{
     line-height: normal;
@@ -104,6 +105,7 @@ body{
 .custom{
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
    
 }
 .card{
@@ -115,6 +117,13 @@ body{
 }
 .text-sec img{
  margin-left: 18rem;
+}
+
+/* responsive */
+
+@media (max-width:1024px)
+{
+    
 }
 
 

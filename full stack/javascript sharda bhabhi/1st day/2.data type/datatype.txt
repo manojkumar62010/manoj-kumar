@@ -1,0 +1,5 @@
+data type 
+  1. Primitive data type 
+     1. Number ,2. Boolean ,3. String , 4. Undefined ,5.Null 
+
+     
