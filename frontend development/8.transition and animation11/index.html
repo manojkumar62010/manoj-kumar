@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transition and animations</title>
+    <style>
+        .tran{
+            background-color: red;
+            width: 400px;
+            height: 400px;
+            color: azure;
+            font-size: 50px;
+            transition: 2s;
+            text-align: center;
+        }
+        .tran:hover{
+            background-color: aqua;
+            transition: 5s;
+            transform: translateY(200px);
+            transform: rotate(30deg);
+            box-shadow: 10px 10px 10px black;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="tran">box1</div>
+</body>
+</html>

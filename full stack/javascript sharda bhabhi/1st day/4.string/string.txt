@@ -1,0 +1,17 @@
+strings 
+  strings are text or sequence of characters 
+
+  eg-:
+  let name="manoj"
+  let role='student'
+  let char='a'
+  let num='23'
+  let empty="";
+
+
+  string indices
+  ---------------------------------------
+  let name = "manoj kumar"
+  by the help of index we can identify the character of the given name 
+  
+

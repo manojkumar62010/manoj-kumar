@@ -1,0 +1,3 @@
+what is Typescript?
+static typed,where JS is dynamic typed  (dynamic means change the value)
+Designed by Microsoft 

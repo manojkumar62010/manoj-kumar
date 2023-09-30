@@ -1,0 +1,38 @@
+.body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-nav{
+display: flex;
+/* flex-direction: row; */
+justify-content: space-evenly;
+}
+
+
+.left-nav ul{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 8%;
+}
+.left-nav ul li{
+    list-style: none;
+}
+.left-nav ul li a{
+    text-decoration: none;
+}
+
+.right-nav ul{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 8%;
+}
+.right-nav ul li{
+    list-style: none;
+
+}
+.right-nav ul li a{
+    text-decoration: none;
+}

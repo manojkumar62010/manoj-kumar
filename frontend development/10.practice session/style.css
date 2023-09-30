@@ -1,0 +1,73 @@
+.container{
+    width: 60%;
+}
+.main-card{
+    height: 40vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url('https://img.freepik.com/free-photo/perky-girl-stylish-glasses-stares-amazement-walking-pink-wall-brunette-culottes-orange-blouse-posing-with-red-handbag_197531-14254.jpg?w=1380&t=st=1695896101~exp=1695896701~hmac=fc0b71962ecb2ddb1b106872c0e10c1f81d9b44c6d3b3f835e8fb546da5f0bb2');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 2.5%;
+}
+.main-card .cc-title{
+    font-size: 225%;
+    font-weight: 700;
+}
+.sub-card{
+    height: 19vh;
+    margin-bottom:2vh ;
+    padding: 2.5%;
+    display: flex;
+    align-items: end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sub-card p{
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 120%;
+}
+.wrapper{
+    margin-top: 10%;
+}
+.attribute{
+    background-color: purple;
+    color: white;
+    font-size: 100%;
+    width: fit-content;
+    padding: 0.5%;
+    top: 0;
+    left: 0;
+}
+.date{
+    color: lightgray;
+    font-size: 90%;
+}
+.title{
+    font-weight: bold;
+    font-size: 150%;
+}
+.content{
+    color: lightgray;
+    font-size: 80%;
+}
+.written-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col-4 img{
+    transition-duration: 0.5s;
+}
+.col-4 img:hover{
+    scale: 120%;
+}
+.fashion{
+    background-color: ;
+}

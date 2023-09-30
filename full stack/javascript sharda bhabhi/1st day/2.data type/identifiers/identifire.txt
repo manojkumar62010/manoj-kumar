@@ -1,0 +1,21 @@
+Identifirs rule 
+-------------------------------------------------
+All javascript variable must be identified with unique names(identifirs)
+
+. Names can contain letters ,digits, underscore, and doller sign (no space)
+. Names must begin with the letter
+. names can also begin with $ and _.
+. Names are case sensitive (y and Y are different variable)
+. Reserved words (like javaScript keywords)CANNOT be used as names.
+
+
+
+boolean in javaScript
+------------------------------------------------
+boolean represents a truth value->true or false/yees or no.
+
+eg-: let age =23;
+let isAdult=true;
+
+let age =13;
+let isAdult=false

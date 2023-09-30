@@ -1,0 +1,9 @@
+String in js  
+---------------------------------------
+strings are text or sequence of characters 
+
+ let name ="manoj";
+ let role='student';
+ let char='a';
+ let num='52';
+ let empty=" ";

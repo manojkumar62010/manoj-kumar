@@ -43,8 +43,10 @@ console.log(q)
 
 // let keyword -: Syntax of declaring variables
 
+// unary operators
+
 let age= 43;
-age=age+1;
+age=age+1; // increement
 console.log(age)
 
 let cgpa=6.8;
