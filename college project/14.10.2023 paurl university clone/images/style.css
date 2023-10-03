@@ -2,11 +2,15 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Rubik+Gemstones&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+a{
+    cursor: pointer;
 }
 /* start  */
 /* Navbar section */
@@ -218,7 +222,7 @@ align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
     width:92rem ;
-    height: 77rem;
+    height: 75rem;
     margin-top: 1.5rem;
     position: relative;
     border-top-left-radius: 10rem;
@@ -227,7 +231,7 @@ align-items: center;
 }
 .overlay{
     width:92rem ;
-    height: 77rem;
+    height: 75rem;
     position: absolute;
     top: 0;
     left: 0;
@@ -274,6 +278,7 @@ align-items: center;
     width: 25.5rem;
     height: 22.9rem;
     color: #ffefef;
+    
 }
 .text-content{
     font: 1.5rem 'roboto',sans-serif;
@@ -360,6 +365,8 @@ align-items: center;
     height: 16.5;
     color: #ffffff;
     text-align: start;
+    /* box-shadow: 0px 0.5rem  1rem #ffffff; */
+    border-radius: 0.5rem;
 }
 .engi-sub-text{
     font-weight: 400;
@@ -369,25 +376,64 @@ align-items: center;
     font-weight:bolder;
     font: 2.8rem 'roboto',sans-serif;
 }
+/* ---engi--- */
 .engi-teacher-sec{
     width: 11.77rem;
     height:22.5rem ;
-    color: #ffffff;
+    color: #030303;
+    /* box-shadow: 2px 5px 10px #CCCCCC; */
+    border-radius: 1rem;
+    background: #f2f0f0;
+    transition: 0.5s;
+    font-weight:500;
+}
+.engi-teacher-sec:hover{
+    width: 11.77rem;
+    height:22.5rem ;
+    color: #fdfcfc;
+    /* box-shadow: 2px 5px 10px #CCCCCC; */
+    border-radius: 1rem;
+    background:rgba(0,0, 0,0.1);
 }
 .engi-teacher-sec img{
     width: 11.77rem;
     height:17.15rem ;
+    
 }
 .name-sec{
-    color: #ffffff;
+    /* color:black; */
     text-align: center;
     font: 1.25rem 'roboto',sans-serif;
     font-weight: 400;
     margin: 0.5rem 0rem 0.25rem;
 }
+.name-sec:hover{
+    color: white;
+}
 .profession-sec{
     text-align: center;
     margin:0 0 0.24rem;
+}
+
+
+/* ------acedemic-journey */
+.academic-journey{
+    background-color: #ffffff;
+    width: 92rem;
+    height: 33.8rem;
+}
+.academic-journey-sec{
+    width: 92rem;
+    height: 27.1rem;
+    
+}
+.academic-header{
+width: 80rem;
+height:3.35rem;
+text-align: center;
+/* position: relative;
+left:27rem; */
+font: 2.8rem 'roboto',sans-serif;
 }
 
 
