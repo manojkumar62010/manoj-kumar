@@ -770,7 +770,7 @@ margin-bottom: 0.5rem;
     /* padding: 3rem 0; */
     position: relative;
     bottom: 10rem;
-z-index: -1;
+ z-index: -1;
 }
 .overlay1{
     width:92rem ;
@@ -1138,7 +1138,7 @@ line-height: 1.5rem;
 }
 .more-deg-card p{
     font-size: 1rem;
-    margin-bottom: ;
+    margin-bottom:0.5rem ;
 }
 .more-deg-card img{
     width: 124.55px;
@@ -1159,6 +1159,7 @@ line-height: 1.5rem;
     width: 1310px;
     height: 848.15px;
     display: flex;
+    margin: auto;
 
 }
 .development-card{
@@ -1717,6 +1718,218 @@ margin-top: 21rem;
     background-repeat: no-repeat;
 
 }
+/* ---------- university image -------------- */
+.another-university-img{
+    width: 92rem;
+    height: 1026px;
+    background-image: url(./images/lifebackground.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.university-writing-sec{
+    width: 92rem;
+    height: 410px;
+    padding: 3rem 15px 0;
+    text-align: center;
+    margin: -224px 0 0;
+}
+.university-writing-sec h2{
+    font-size:2rem ;
+    font-weight:600 ;
+    color: #fff;
+    
+}
+.university-writing-sec h1 span{
+    font-family: 'Londrina Outline', cursive;
+    color: #fff;
+    font-weight: 300;
+}
+.university-writing-sec h1{
+    font-size:192px ;
+    /* font-weight: ; */
+    color: #FFCC29;
+   
+}
+.university-writing-sec h3{
+    font-size:1.75rem ;
+    font-weight:400 ;
+    color: #fff;
+}
+
+/* -----------------------sports------ */
+.sports-culture{
+    width: 92rem;
+    height: ;
+}
+.sports-sec{
+    width: 92rem;
+    height:650px;
+    margin: auto;
+   
+
+}
+.sports-sub-sec {
+    width: 1410px;
+    height:84.4px;
+    margin: -3rem 0 0;
+    /* padding: 0 0 3rem; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    
+}
+.sports-card-sec{
+    text-align: center;
+
+}
+#cultur-fest{
+    background-color: #D20005;
+    color: #f9f8f8;
+    font-size: 20.2px;
+    font-weight: 500;
+    padding: 2rem 3rem;
+    /* text-align: center; */
+    height: 94.5px;
+    text-align: center;
+
+}
+.sports-card-sec a{
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    
+    font-size: 17.6px;
+
+}
+.culture-cards{
+    width: 92rem;
+    height: 800px;
+margin: auto;
+background-color: #f6f2f2;
+border-bottom-left-radius: 10rem;
+border-bottom-right-radius: 10rem;
+
+
+}
+.culture-card{
+    width: 1310px;
+    height: 552px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.culture-sub-card{
+    padding: 0 15px;
+}
+.culture-sub-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.culture-sub-cards2 img{
+     padding:  0 0 1rem
+
+}
+.culture-sub-cards1 img
+{
+    margin-top: 1rem;
+}
+.last-second
+{
+    background-image: url(https://media.istockphoto.com/id/1189899412/photo/architect-working-on-blueprint-with-team.webp?b=1&s=170667a&w=0&k=20&c=i0fL4G1NnkHVBdIlVgyXFQmCtKNN-vNcCOOP1fu00Rw=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 92rem;
+    height: 1050px;
+    position: relative;
+    bottom:6rem;
+    /* z-index: 1; */
+}
+.overlay6{
+    width: 92rem;
+    height: 1050px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+.speak2{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.traning-sec-2{
+    position: relative;
+    bottom: 10rem;
+}
+.writing2 h1{
+    color: #fff;
+
+
+}
+.writing2 p i{
+    color: #fff;
+}
+
+/* -------- */
+.last-sec{
+    width: 1310px;
+    height: 358.4px;
+    padding: 0 15px;
+    text-align: center;
+    margin: auto;
+}
+.last-sec h1{
+    font-size: 5rem;
+    font-weight: 700;
+    color: #FFF;
+}
+.last-sec .yello{
+    color: #FFCC29;
+    font-weight: 900;
+}
+.last-sec p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+}
+.last-sec p span{
+    font-size: 3rem;
+    color: #FFCC29;
+    font-weight: 900;
+}
+
+/* footer */
+.footer{
+    width: 92rem;
+    height: 64px;
+    background-color: #000;
+    color: #f6f2f2;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.footer-sec{
+    width:1110px ;
+    height:24px ;
+    margin-bottom: 0 0 0.5rem;
+    font-size: 1rem;
+
+
+}
+
+
+
+
 
 
 
