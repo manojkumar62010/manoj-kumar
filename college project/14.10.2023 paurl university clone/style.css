@@ -28,7 +28,7 @@ a{
 }
 
 .header-sec{
-    width: 93rem;
+    width: 92rem;
     height: 3.2em;
     /* background-color: rgb(247, 245, 245); */
     padding: 0px 10px 0px 10px;
@@ -275,7 +275,6 @@ align-items: center;
     width: 92rem;
     height: 23rem;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .card-sec{
@@ -295,9 +294,14 @@ align-items: center;
     margin-bottom: 0.5rem;
 }
 .card-sec-middle{
-    width: 27.3rem;
+    width: 26.3rem;
     height:22rem ;
     background: rgba(0,0, 0,0.3);
+    
+}
+.card-sub-sec-middle:hover{
+    transform: scale(25%);
+   
 }
 .card-sub-sec-middle{
     width: 21rem;
@@ -307,6 +311,7 @@ align-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 2s;
 }
 .middle-text{
     width: 11.4rem;
@@ -355,6 +360,12 @@ align-items: center;
 .small-card-sec{
     width: 9.67rem;
     height:5.13rem ;
+    transition: 1s;
+    cursor: pointer;
+}
+.small-card-sec:hover{
+    transform: scale(25%);
+
 }
 /* ----enginner section--- */
 .engi-sec{
@@ -379,6 +390,7 @@ align-items: center;
 .engi-sub-text-heading{
     font-weight:bolder;
     font: 2.8rem 'roboto',sans-serif;
+    font-weight: 900;
 }
 /* ---engi--- */
 .engi-teacher-sec{
@@ -390,8 +402,10 @@ align-items: center;
     background: #f2f0f0;
     transition: 0.5s;
     font-weight:500;
+    transition: 2s;
 }
 .engi-teacher-sec:hover{
+    transform: scale(70%);
     width: 11.77rem;
     height:22.5rem ;
     color: #fdfcfc;
@@ -556,7 +570,7 @@ margin-bottom: 0.5rem;
 
 }
 .cources1{
-    height: 61.33rem;
+    height: 1050px;
     width: 92rem;
     margin: 0 0 -7rem;
     padding: 3rem 0;
@@ -565,12 +579,9 @@ margin-bottom: 0.5rem;
     justify-content: center;
     background-color: #ffffff;
     border-bottom-right-radius: 5rem;
-    box-shadow: 10px 10px 20px black;
+    /* box-shadow: 10px 10px 20px black; */
     border-bottom-left-radius: 5rem;
     /* z-index: 5; */
-
-    
-
 }
 .courses-sec{
     width: 81.875rem;
@@ -586,7 +597,7 @@ margin-bottom: 0.5rem;
     height: 13.44rem;
     margin-bottom: 0.5rem;
     font: 2.8rem 'roboto',sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     padding: 0 0.9rem;
     /* text-align: center; */
 }
@@ -614,6 +625,7 @@ margin-bottom: 0.5rem;
     padding: 1rem;
     justify-content: space-evenly;
 }
+
 .main-degree-sec ul li{
     list-style: none;
 }
@@ -626,7 +638,17 @@ margin-bottom: 0.5rem;
     background-color: #D20005;
     border-radius: 10px !important;
     color: #ffffff;
-    padding: 1rem 1rem 1.53rem 1rem;
+    padding: 1rem 1rem 2.95rem 1rem;
+    
+}
+#diploma{
+    color: #F5F5F5;
+    font-weight:900;
+}
+.diploma{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 63% 85%, 50% 75%, 0% 75%);
+    transition: 0s;
+    
 }
 .ug{
     
@@ -671,7 +693,7 @@ margin-bottom: 0.5rem;
 }
 .sub-courses{
     width: 81.87rem;
-    height: 9.5;
+    height: 9.5rem;
     padding: 0.5rem 0;
     margin: 0 -1rem;
     display: flex;
@@ -693,7 +715,13 @@ margin-bottom: 0.5rem;
     font-size: 1rem;
     margin: 0.5rem 0 0;
     border-radius: 10px;
+    transition: 2s;
 }
+.sub-courses-sec:hover{
+    transform: scale(25%);
+}
+
+
 .fa-solid{
     opacity: 0;
     font: size 1rem;
@@ -716,7 +744,7 @@ margin-bottom: 0.5rem;
     margin: 0 -1.19rem;
     padding: 3rem 0 0;
     /* text-align: center; */
-    margin-left: 4rem;
+    margin:auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -770,7 +798,7 @@ margin-bottom: 0.5rem;
     /* padding: 3rem 0; */
     position: relative;
     bottom: 10rem;
- z-index: -1;
+     z-index: -1;
 }
 .overlay1{
     width:92rem ;
@@ -991,7 +1019,12 @@ line-height: 1.5rem;
  width: 491px;
  height: 523px;
  padding: 0.5rem;
+ transition: 2s;
 }
+.budhha-img-sec:hover{
+transform: scale(35%);
+}
+
 
 
 /* -------Traning section---- */
@@ -1045,7 +1078,7 @@ line-height: 1.5rem;
 
 /* -------fitnes section---- */
 .fitnes-facilities{
-    width: 92%;
+    width: 92rem;
     height: 817.26px;
     padding: 3rem 0;
     margin: auto;
@@ -1076,7 +1109,17 @@ line-height: 1.5rem;
 .fitness-cards img{
     width: 373.33px;
     height: 493.11px;
+    box-shadow: 0 0 10px gray;
+    margin-left: 2px;
+    transition: 2s;
+    border-radius: 16px;
 }
+.fitness-cards img:hover{
+    transform: scale(45%);
+
+}
+
+/* ---more-degree-- */
 .more-degree{
     width: 92rem;
     height: 414.14px;
@@ -1088,16 +1131,18 @@ line-height: 1.5rem;
     height: 318.15px;
     display: flex;
     margin: auto;
-    
-
 }
+
 .more-deg-writing{
     width:436.66px;
     height:107.5px ;
     padding: 0 15px;
     position: relative;
     top: 4rem;
+   
 }
+
+
 .more-deg-writing h1{
     font-size:2.8rem ;
     font-weight:bolder ;
@@ -1127,7 +1172,12 @@ line-height: 1.5rem;
     border-bottom: 2px solid #D20005;
     text-align: center;
     padding: 1rem;
+    transition: 2s;
 }
+.more-deg-card:hover{
+    transform: scale(45%);
+}
+
 .more-deg-card h2{
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
@@ -1184,6 +1234,12 @@ font-size: 2rem;
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 0 0 10px #CCCCCC;
+    transition: 2s;
+    cursor: pointer;
+}
+.dev-card:hover{
+    transform: scale(55%);
+
 }
 .dev-card h1{
 font-size: 2.8rem;
@@ -1209,7 +1265,12 @@ height: 149.75px;
     padding: 1rem;
     text-align: center;
     box-shadow: 0 0 10px #CCCCCC;
+    transition: 2s;
+    cursor: pointer;
     
+}
+.dev-sub-card:hover{
+    transform: scale(75%);
 }
 .dev-sub-card p{
     font-size: 1.24rem;
@@ -1222,7 +1283,12 @@ height: 149.75px;
     height: 848.15px;
     border-bottom-left-radius: 6rem;
     border-bottom-right-radius:6rem ;
+    transition: 2s;
 
+
+}
+.development-card1:hover{
+    transform: scale(75%);
 }
 .overlay3{
     width:655px;
@@ -1233,6 +1299,11 @@ height: 149.75px;
     background: rgba(0, 0, 0, 0.9);
     border-bottom-left-radius: 6rem;
     border-bottom-right-radius:6rem ;
+    transition: 2s;
+}
+.overlay3:hover{
+    transform: scale(75%);
+
 }
 .overlay3 .h1{
     width: 559px;
@@ -1303,6 +1374,7 @@ height: 149.75px;
     padding: 1rem 0rem;
 
 }
+/* -----role model--- */
 .rol-model{
     width: 92rem;
     height: 754px;
@@ -1336,14 +1408,21 @@ height: 149.75px;
     width: 442.68px;
     height: 408px;
     justify-content: space-between;
+  
     
 }
+
 .rol-model-sub-sec img
 {
     width:221.34px ;
     height: 392px;
     margin-top: 1rem;
     padding: 0 4px;
+    transition: 2s;
+
+}
+.rol-model-sub-sec img:hover{
+    transform: scale(40%);
 
 }
 .rol-model-sub-sec1 img{
@@ -1351,23 +1430,31 @@ height: 149.75px;
     height: 185.78px;
     margin-top: 1rem;
     padding: 0 4px;
+    transition: 1s;
+}
+.rol-model-sub-sec1 img:hover{
+    transform: scale(40%);
 }
 .rol-model-card1 img{
     width: 356.55px;
     height: 388.54px;
     margin-top: 1rem;
+    transition: 1.5s;
+}
+.rol-model-card1 img:hover{
+    transform: scale(55%);
 }
 
 /* another bg back */
-.black-bg2{
-    width: 92rem;
-    height: 2200px;
-    padding: 3rem 0;
-    background-image: url(https://images.unsplash.com/photo-1516617442634-75371039cb3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fDNnaXJsJTIwcGhvdG8lMjBmb3IlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
+/* .black-bg2{
+    background-image: url(https://images.unsplash.com/photo-1562789233-495f52b583dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10rem;
-}
+    width:92%;
+    height: 2080px;
+
+} */
+ 
 .overlay4{
     width:92rem;
     height: 620.2px;
@@ -1375,7 +1462,7 @@ height: 149.75px;
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-    margin-top: -3rem;
+    margin-top: -2rem;
 }
 .speak2{
     color: #0a0a0a;
@@ -1389,7 +1476,7 @@ height: 149.75px;
 }
 .training-sec1{
     position: relative;
-    bottom: 12rem;
+    bottom: 8rem;
 }
 .h1{
     margin-top: 3rem;
@@ -1439,6 +1526,7 @@ height: 149.75px;
     height: 266.81px;
     padding: 1rem;
 }
+/* ------four cards sec */
 .four-cards{
     width: 92rem;
     height: 512px;
@@ -1458,8 +1546,13 @@ width: 284.4px;
 height: 385px;
 background-color: #fef5f5;
 border-radius: 14px;
+transition: 2s;
 
 }
+.st1-card:hover{
+    transform: scale(30%);
+}
+
 .st1-card img{
     width: 284.4px;
     height: 189.39px;
@@ -1502,6 +1595,10 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+transition: 2s;
+}
+.fitth-cards:hover{
+    transform: scale(50%);
 }
 #fitth-cards{
     background-color: #FFCC29;
@@ -1565,17 +1662,30 @@ align-items: center;
 .left-img1{
     width:276.6px ;
     height:284.41px ;
+    transition: 1s;
 
+}
+.left-img1:hover{
+    transform: scale(35%);
 }
 .left-img2{
     width:276.6px ;
     height:345.18px ;
+    transition: 1s;
     
 }
+.left-img2:hover{
+    transform: scale(35%);
+}
+
 .left-img3{
     width:276.6px ;
     height: 402.2px;
+    transition: 1s;
     
+}
+.left-img3:hover{
+    transform: scale(35%);
 }
 .red-sec{
     background-color: #D20005;
@@ -1659,9 +1769,11 @@ align-items: center;
     display: flex;
     justify-content:flex-start;
     margin-top: -5rem;
+    /* transition: 2s; */
     /* gap: 1rem; */
     
 }
+
 .another-startup-card h5{
     font-weight: 500;
     font-size: 1.25rem;
@@ -1685,7 +1797,11 @@ align-items: center;
     align-items: baseline;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 3s;
 
+}
+.another-card-sec3:hover{
+    transform: scale(65%);
 }
 .another-writing-sec{
     display: flex;
@@ -1703,12 +1819,21 @@ margin-top: 21rem;
     background-image: url(https://paruluniversity.ac.in/master_2024/images/life/b2.webp);
     background-size: cover;
     background-repeat: no-repeat;
-}.another-card-sec2{
+    transition: 3s;
+}
+.another-card-sec1:hover{
+    transform: scale(65%);
+}
+.another-card-sec2{
     height: 572.81px;
     width: 352.5px;
     background-image:url(https://paruluniversity.ac.in/master_2024/images/life/b3.webp) ;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 3s;
+}
+.another-card-sec2:hover{
+    transform: scale(65%);
 }
 .another-card-sec4{
     height: 572.81px;
@@ -1716,7 +1841,11 @@ margin-top: 21rem;
     background-image:url(https://paruluniversity.ac.in/master_2024/images/life/b4.webp) ;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: 3s;
 
+}
+.another-card-sec4:hover{
+    transform: scale(65%);
 }
 /* ---------- university image -------------- */
 .another-university-img{
@@ -1761,7 +1890,7 @@ margin-top: 21rem;
 /* -----------------------sports------ */
 .sports-culture{
     width: 92rem;
-    height: ;
+    /* height: ; */
 }
 .sports-sec{
     width: 92rem;
@@ -1771,7 +1900,7 @@ margin-top: 21rem;
 
 }
 .sports-sub-sec {
-    width: 1410px;
+    width: 1100px;
     height:84.4px;
     margin: -3rem 0 0;
     /* padding: 0 0 3rem; */
@@ -1781,23 +1910,36 @@ margin-top: 21rem;
     /* justify-content: center; */
     align-items: center;
     margin: auto;
+    margin-bottom: 2rem;
     
 }
 .sports-card-sec{
     text-align: center;
-
+    width: 180px;
+    height: 94px;
+    border: 0px solid white;
+    /* background-color: #D20005; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+.sports-card-sec1{
+    background-color: #D20005;
+    padding-bottom:1rem;
 }
 #cultur-fest{
-    background-color: #D20005;
-    color: #f9f8f8;
-    font-size: 20.2px;
-    font-weight: 500;
-    padding: 2rem 3rem;
-    /* text-align: center; */
-    height: 94.5px;
-    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+.sports-card-sec1{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 63% 85%, 50% 75%, 0% 75%);
+    transition: 0s;
+    
 
 }
+
 .sports-card-sec a{
     text-decoration: none;
     color: rgb(9, 9, 9);
@@ -1805,16 +1947,18 @@ margin-top: 21rem;
     font-size: 17.6px;
 
 }
+/* -----cultur-cards---- */
+
 .culture-cards{
     width: 92rem;
     height: 800px;
+    /* margin-top: 5rem; */
 margin: auto;
 background-color: #f6f2f2;
 border-bottom-left-radius: 10rem;
 border-bottom-right-radius: 10rem;
-
-
 }
+
 .culture-card{
     width: 1310px;
     height: 552px;
@@ -1829,6 +1973,31 @@ border-bottom-right-radius: 10rem;
 .culture-sub-card{
     padding: 0 15px;
 }
+.imge-1{
+    width:610px ;
+    height:282.8px;
+    transition: 2s;
+}
+.imge-1:hover{
+    transform: scale(30%);
+}
+.imge-2{
+width: 352.08px;
+height:200.7px ;
+transition: 2s;
+}
+.imge-2:hover{
+    transform: scale(30%);
+}
+.imge-3{
+width:242.91px ;
+height: 212.81px;
+transition: 2s;
+}
+.imge-3:hover{
+    transform: scale(30%);
+}
+
 .culture-sub-cards {
     display: flex;
     justify-content: space-between;

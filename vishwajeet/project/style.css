@@ -1,0 +1,67 @@
+ul li{
+    list-style: none;
+
+}
+ a{
+    text-decoration: none;
+}
+div h1 a{
+    text-decoration: none;
+}
+.imge-1{
+    background-image: url(https://www.tooplate.com/templates/2127_little_fashion/images/slideshow/team-meeting-renewable-energy-project.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+.fw-bolder{
+    font-size: 64px;
+}
+.d-flex h1
+    {
+margin-left: 4rem;
+}
+.black{
+    font-size: 40px;
+    font-weight: 700;
+}
+.border-start{
+    text-decoration: none;
+    color: black;
+}
+.column{
+    width: 220px;
+    height:450px ;
+}
+.container1{
+    height: 530px;
+}
+.center{
+    line-height: 30px;
+}
+.imge-2{
+    width: 700px;
+}
+.centre1{
+    width: 700px;
+    height: 500;
+    margin-top: 9rem;
+    text-align: start;
+}
+.card-text{
+    font-size: 24px;
+}
+.conatiner3{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.between a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+

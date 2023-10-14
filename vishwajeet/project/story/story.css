@@ -1,0 +1,53 @@
+ul li{
+    list-style: none;
+
+}
+ a{
+    text-decoration: none;
+}
+div h1 a{
+    text-decoration: none;
+}
+.container4 img{
+    width: 750px;
+    /* height: 700px; */
+    
+}
+.container3 h1{
+
+margin: auto;
+}
+.container6{
+    width:416px ;
+    height:169px ;
+
+}
+.container6 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+.container-6 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+
+}
+.container-6{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.gap1{
+    margin-top: 5rem;
+
+}
+.container-4{
+    
+}
+.container-5{
+    box-shadow: 0 0 10px gray;
+    border-bottom: 1px solid black;
+    
+}
