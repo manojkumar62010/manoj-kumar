@@ -1,5 +1,5 @@
 @media  only screen and (max-width:768px){
-    body{
+   body{ 
         overflow-x: hidden;
         
     }
@@ -1081,7 +1081,7 @@
     }
     /* -----stratup-sec---- */
     .startup-section{
-        width: 768;
+        width: 768px;
         height: 900.4px;
         background-color: #F5F5F5;
         display: flex;
@@ -1182,7 +1182,7 @@
     .another-startup-cards
 {
     height: 1427.4px;
-    width: 92rem;
+    width: 768px;
     padding-top: 1.5rem;
 }
 .another-startup-card{
@@ -1260,7 +1260,7 @@ position: relative;
     /* height: ; */
 }
 .sports-sec{
-    width: 768;
+    width: 768px;
     height:650px;
     margin: auto;
    

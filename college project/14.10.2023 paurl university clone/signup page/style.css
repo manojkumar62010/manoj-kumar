@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #223243;
+    background: #121313;
   }
   /* --------------------- */
   .container1{
@@ -31,14 +31,14 @@
    background: #4fc3dc;
     margin:  0 4px;
     border-radius: 50%;
-    box-shadow: 0 0 0 10px #4fc3dc44,0 0 50px #4fc3dc,0 0 100px #00dfc4;
+    box-shadow: 0 0 0 10px #85cbdb44,0 0 50px #4fc3dc,0 0 100px #00dfc4;
     animation: animate 15s linear infinite;
-    animation-duration: calc(125s / var(--i));
+    animation-duration: calc(150s/ var(--i) );
   
   }
   .bubbles span:nth-child(even){
-    background:#ff2d75;
-    box-shadow: 0 0 0 10px #ff2d75,0 0 50px #ff2d75,0 0 100px #ff2d75;
+    background:#e1b6c5;
+    box-shadow: 0 0 0 10px #d2a3b3,0 0 50px #bd8f9f,0 0 100px #bf91a1;
   
   }
   
@@ -54,9 +54,7 @@
   /* ------------------ */
   .container{
     padding: 40px;
-    /* border: 8px solid #fff;
-    border-radius: 20px;
-    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0,0,0,0.35),inset -5px -5px 15px rgba(255, 255, 255, 0.1),inset 5px 5px 15px rgba(0,0,0,0.35) ; */
+   
   }
   .container .form{
     display: flex;
@@ -67,14 +65,7 @@
 
 
   }
-  /* .container .form.signin,
-  .container.signinForm .form.signup{
-    display: none;
-  }
-  .container.signinForm .form.signin{
-    display: none;
-
-  } */
+  
 
   .container .form h2{
     color: #fff;
@@ -159,6 +150,7 @@
     color: #fff;
 
   }
+ 
   .login{
     text-decoration: none;
     color: #fff;
