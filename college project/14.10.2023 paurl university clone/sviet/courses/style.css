@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.position-fixed{
+    gap: 30%;
+    background-color: aliceblue;
+    z-index: 1;
+}
+/* ----main---- */
+
+.background{
+    background-image: url(./asset/asset\ 36.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+  height: 70vh;
+
+ 
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(0,0, 0,0.7);
+}
+.container1 img{
+    border: 3px solid rgb(63, 63, 63);
+    box-shadow: 0 0 10px #222121;
+}
+.background1{
+    background-image: url(./asset/asset\ 37.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   width: 100%;
+  height: 40vh;
+}
+.background2{
+    background-image: url(./asset/asset\ 38.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   width: 100%;
+  height: 50vh;
+}
+.img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+   
+}
+
+
+/* --footer-- */
+.color-bg{
+    background-color:rgba(1, 18, 41, 0.985) ;
+   
+}
+.color-bg1{
+    background-color:rgba(0, 9, 20, 0.985) ;
+    height: 5vh;
+}
+.card1:hover{
+    box-shadow: 0 0 10px rgb(39, 39, 39);
+    transform: scale(1.01);
+    transition: 1s;
+}

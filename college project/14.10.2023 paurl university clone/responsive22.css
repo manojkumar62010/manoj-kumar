@@ -1,0 +1,1591 @@
+@media  only screen and (max-width:425px){
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+        
+    }
+    .header{
+        width: 100%;
+    }
+    .nav-sec{
+        display: flex;
+        flex-direction: column;
+    }
+    .first-nav{
+        width: 100%;
+       
+    }
+    .second-nav{
+        width: 100%;
+        margin-top: 5%;
+    }
+    /* ------------------------main-- */
+    .bg-image{
+        width: 100%;
+        height: 306.66px;
+        background-position: center;
+    }
+    
+    .main-sec{
+        margin-top: 1rem;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .sub-main-heading{
+        text-align: center;
+        font-weight: 300;
+        font: 130% 'roboto',sans-serif;
+        width: 100%;
+    }
+    .main-sub-heading{
+        text-align: center;
+        font-size: 170%!important;
+        font-weight: 700!important;
+        width: 100%;
+        padding: 0 0 8px 0;
+        margin: 0 0  8px 0;
+    }
+    .cards{
+        width: 100%;
+        height:100%;
+        /* height: 474px; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    justify-content: space-evenly;
+    margin-top: 3.5rem;
+    margin-left: 1%;
+    
+    }
+    .card {
+   
+        width: 80%;
+        height: 165px;
+        padding: 0 15px;
+        margin-bottom: 3rem;
+    }
+    .university-img{
+        width: 100%;
+        height: 237.03px;
+        background-position: center;
+
+    }
+    .main-bg-img{
+        width: 100%;
+        height: 3200px;
+        /* height: 100%; */
+        padding: 0 16px;
+    }
+    .overlay{
+        width:100%;
+        height: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0, 0,0.9);
+        border-top-left-radius: 10rem;
+        border-top-right-radius: 10rem;
+    }
+    .bg-text-sec{
+        width: 100%;
+        height: 198.4px;
+        margin-top: 3rem;
+        text-align: center;
+        color:#ffffff;
+        position: relative;
+        left: 1rem;
+    
+    }
+    .bg-sub-text{
+        font-size: 100%;
+    }
+    .bg-text-sec.bg-text-heading{
+        font-size: 100%;
+    }
+    /* -------another card sec--- */
+    .another-card-sec{
+        width: 100%;
+        height: 40%;
+        
+        margin: 24px -10px 0;
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+       margin-top: 20%;
+        text-align: center;
+        
+    }
+    .card-sec{
+       
+        width: 100%;
+        
+        color: #ffefef;
+        margin: 16px 0;
+        padding: 0 15px;
+
+        
+    }
+    .text-content{
+        font-size: 150%;
+        
+        margin-bottom: 8px;
+    }
+    .requirment-sec{
+        font-size: 200%;
+      
+        font-weight: 900;
+        margin-bottom: 8px;
+    }
+    .card-sec-middle{
+        
+        width: 100%;
+        height:20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+        padding: 0 2%;
+       
+        margin-top: 10%;
+        
+    }
+    .card-sub-sec-middle{
+        /* width:285.88px; */
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .middle-text{
+        /* width: 11.4rem;
+        height: 12.7rem; */
+        font: 170% 'roboto',sans-serif;
+        text-align: center;
+        color: #ffffff;
+        font-weight: 700;
+        margin: auto;
+    }
+
+    .hired-text-sec{
+        font: 130% 'roboto',sans-serif;
+        margin-bottom: 0.5rem;
+        font-weight: 800;
+        margin: 2rem 0 8px;
+    }
+    .btn-sec li {
+        /* width: 310.66px; */
+        width: 100%;
+        /* height: 75.2px; */
+        height: 100%;
+        font: 1.25rem 'roboto',sans-serif;
+        border-radius: 0.5rem;
+        border: 1px solid #CCCCCC;
+        text-align: center;
+        list-style: none;
+        margin-top: 1rem;
+        padding:12.5px ;
+        /* backgrond: rgba(0,0, 0,0.1); */
+    }
+
+    .small-cards{
+        width: 100%;
+        height: 110px;
+        gap: 1%;
+        display: flex;
+        display: none;
+        justify-content: space-between;
+        padding-right: 0.1rem;
+        /* overflow: hidden; */
+
+       
+       margin-left: -2%;
+       /* margin-top: -1%; */
+     
+       
+    }
+    .small-card-sec img{
+        width: 110%;
+        height: 100%;
+    }
+    /* -----engineer  sec -----*/
+    .engi-sec{
+        width: 100%;
+        height: 1500px;
+        padding: 16px 0px 0;
+        display: flex;
+        flex-direction: column;
+         justify-content: center;
+         align-items: center;
+        justify-content: space-between;
+        margin: 0 2%;
+        /* overflow-x: hidden; */
+        margin-top: -20%;
+    }
+    .engi-text{
+        /* width: 340.66px; */
+        width: 100%;
+        height: 293.6px;
+        color: #ffffff;
+        text-align: start;
+        /* box-shadow: 0px 0.5rem  1rem #ffffff; */
+        border-radius: 0.5rem;
+        padding: 0 15px;
+        margin-bottom: 3rem;
+        
+        
+    }
+    .ngi-sub-text{
+        font-size: 130%;
+        width: 100%;
+    }
+    .engi-sub-text-heading{
+        font-weight:bolder;
+        font: 110% 'roboto',sans-serif;
+        font-weight: 800;
+    }
+    .engi-teacher-sec{
+        /* width:170.33px ; */
+        width: 50%;
+        height: 450.59px;
+        /* height: 100%; */
+        margin: 0 1rem;
+    }
+    .engi-teacher-sec img{
+        /* width: 140.32px; */
+        width: 100%;
+        height:260.64px;
+    }
+    /* ---------------academic journey---------------------- */
+    .academic-journey{
+        background-color: #ffffff;
+        width: 100%;
+        /* height: 562.69px; */
+        height: 100%;
+        padding: 3rem 0 3rem 0;
+    }
+    .learning-sec{
+        width: 100%;
+        height: 100%;
+    }
+    .academic-journey-sec{
+        /* width: 1022px; */
+        width: 100%;
+        height: 235.6px;
+        
+       margin: 0 -15px;
+        
+    }
+    .academic-header{
+        /* width: 1022px; */
+        width: 99%;
+        font-size: 160%;
+        height: 40%;
+    }
+    .academic-subfooter{
+        /* width: 1022px; */
+        width: 100%;
+        margin-top: 3%;
+        font-size: 130%;
+    }
+
+    /* ----learning cards------------ */
+    .learning-cards-sec{
+        width: 10%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+    .learning-card-sub-sec{
+        /* width: 210.65px; */
+        width: 100%;
+        height: 5%;
+        padding: 32px;
+        border: none;
+        text-align: center;
+    }
+    .learning-card-sub-sec1{
+        /* width: 232.58px; */
+        font-size: 100%;
+        height: 5%;
+        padding: 32px;
+        border: none;
+        text-align: center;
+    }
+    .learning-card-sub-sec2{
+        /* width: 10%; */
+        font-size: 100%;
+        height: 5%;
+        padding: 32px;
+        border: none;
+        text-align: center;
+    }
+    .learning-card-sub-sec3{
+        /* width: 121.8px; */
+        font-size: 100%;
+        height: 5%;
+        
+        padding: 32px;
+        border: none;
+        text-align: center;
+    }
+    .learning-card-sub-sec4{
+        /* width: 168.83px; */
+        font-size: 100%;
+        height: 5%;
+        padding: 32px;
+        border: none;
+        text-align: center;
+    }
+    
+.cources{
+    
+    width: 100%;
+    height: 100%;
+    margin:  0 0 -114px;
+    /* padding: 48px 0; */
+    display: none;
+  
+}
+.cources1{
+    width: 100%;
+    height: 100%;
+}
+.courses-sec{
+    /* width: 1000px; */
+    width: 100%;
+    /* height: 200px; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    margin-left: 1rem;
+}
+.industry{
+    /* width:395.84px; */
+    width: 100%;
+    height: 0%;
+    margin-bottom: 0.5rem;
+    font: 180% 'roboto',sans-serif;
+    font-weight: 300;
+    padding: 0 0.9rem;
+    /* text-align: center; */
+}
+.degree-sec{
+    /* width: 596.16px; */
+    width: 100%;
+    height: 57.6px;
+    margin-right: 3%;
+    
+}
+.main-degree-sec{
+    /* width: 596.16px; */
+    width: 100%;
+    height: 51.6px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+  
+
+    
+}
+.main-degree-sec ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+   justify-content: space-between;
+    font-size: 100%;
+    position: relative;
+    bottom: 20%
+
+   
+  
+}
+
+
+
+
+.diploma{
+    font-size: 100%;
+    padding:1rem 1rem 2.1rem 1rem;
+    margin-left:  7.5px;
+}
+
+/* -----------sub courses----- */
+.main-sub-courses{
+    /* text-align: center; */
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    overflow-x: hidden;
+
+}
+.sub-courses{
+    width: 100%;
+    height: 168px;
+    padding: 0.5rem 0;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 1rem; */
+}
+.sub-courses-sec{
+    /* width: 225.5px; */
+    width: 100%;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    box-shadow: 0px 0px 10px #686363;
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.sub-courses-sec img{
+    width: 100%;
+}
+.program{
+    width: 99%;
+    height: 198.4px;
+    margin: 0 -15px;
+    padding: 1rem 0 0;
+    /* text-align: center; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.program h1{
+    font-size: 120%;
+}
+/* ----bg-sec */
+.black-bg-main{
+    width: 100%;
+    height: 3000.95px;
+
+}
+
+
+.black-bg-sec{
+    width: 100%;
+    height: 100%;
+    /* padding: 3rem 0; */
+    position: relative;
+    /* bottom: 10rem; */
+     z-index: -1;
+}
+.overlay1{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0, 0,0.9);
+   
+}
+.education{
+    width: 99%;
+    /* height:772.28px; */
+    height: 100%;
+    /* background: #000; */
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.edu-sec{
+    /* width: 511px; */
+    width: 100%;
+    height: 772.28px;
+    border-right: none;
+    /* background-color: #D20005; */
+    padding: 3rem;
+    margin-top: 10%;
+}
+.edu-sec h1{
+    font: 150% 'roboto',sans-serif;
+    font-weight: 500;
+    
+    margin-bottom: 0.5rem;
+}
+.edu-sec p{
+    font-size: 130%;
+}
+.edu-sec ul{
+    display: flex;
+    gap: 2%;
+    justify-content: flex-start;
+    flex-direction: column;
+
+
+}
+.edu-sec ul li{
+    list-style: none;
+    background-color: #686363;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 130%;
+    border-radius: 0.5rem;
+    margin-top: 1%;
+}
+
+.edu-sub-sec{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.youngest-uni{
+    width: 100%;
+    height: 20%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border-bottom:none;
+    border-right:none ;
+}
+.youngest-uni h2{
+    font: 150% 'roboto',sans-serif;
+    font-weight: 900;
+    color: #FFCC29;
+}
+.youngest-uni p{
+    font: 100% 'roboto' sans-serif;
+    color: #CCCCCC;
+}
+
+.youngest-uni1{
+    width: 100%;
+    height: 20%;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    
+}
+.youngest-uni2{
+    width: 100%;
+    height: 25%;
+    border: none;
+    
+}
+.edu-sec1{
+    /* width: 511px; */
+    width: 100%;
+    height: 772.28px;
+    padding: 3rem;
+    margin-top: 10%;
+    font-weight: 900;
+}
+.edu-sec1 h1{
+    
+    font-weight: 500;
+    font: 130% 'roboto',sans-serif;
+}
+.edu-sec1 p{
+    font: 120% 'roboto',sans-serif;
+
+    font-weight: 500;
+}
+.curricu{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curricu1{
+    display: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.curricu-sec{
+    width: 100%;
+}
+.efect-sec{
+    width: 100%;
+    height: 7%;
+    padding: 3rem 0;
+    margin: auto;
+    margin-top: 80%;
+}
+.efect-sec img{
+    width: 99%;
+    height: 100%;
+    
+}
+/* ------budhha sec--- */
+
+.gautam-budhha-sec{
+    width: 100%;
+    height: 476px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30%;
+
+}
+.budhha-writing-sec{
+    height: 100%;
+    /* width: 511px; */
+    width: 100%;
+    padding: 0 15px;
+   
+}
+.budhha-writing-sec p{
+    font-size:160%;
+    font-weight: 300;
+
+}
+.budhha-writing-sec h1{
+    font-size: 160%;
+    font-weight: 900;
+    width: 100%;
+    }
+    .budhha-writing-sec h5{
+        font-size: 100%;
+        width: 100%;
+    }
+    .budhha-writing-sub-sec{
+        width: 100%;
+        text-align: center;
+    }
+    .budhha-img-sec{
+        /* width: 491px; */
+        width: 80%;
+        height: 426px;
+        padding: 1rem;
+        margin-top: 10%;
+      margin-left: 10%;
+       }
+       .budhha-img-sec img{
+        width: 100%;
+        height: 100%;
+       }
+
+       /* -------------traning----- */
+
+       .training{
+        width: 100%;
+        height: 100%;
+        padding:3rem 0;
+        position: relative;
+        bottom: 10rem;
+    }
+    .training-sec{
+        width: 100%;
+        height: 40%;
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 1rem;
+    
+    }
+    .traning-writing-sec{
+        /* width: 496px; */
+        width: 100%;
+       height: 100%;
+        padding: 0 15px;
+        position: relative;
+        top: 1rem;
+    }
+    #speak{
+        font-size: 170%;
+        font-weight: 100;
+    }
+    .traning-writing-sec h1{
+        font: 180% 'roboto',sans-serif;
+        padding: 0 0 2rem;
+        font-weight: bold;
+    }
+    .traning-writing-sec p i{
+        font-size: 70%;
+    }
+    .traning-img-sec{
+        /* width:496px; */
+        width: 100%;
+        height: 60%;
+        padding: 0 15px;
+    }
+    .traning-img-sec img{
+        /* width: 466px; */
+        width: 100%;
+      height: 100%;
+    }
+    /* ---fitness-- */
+    .fitnes-facilities{
+        width: 100%;
+        height: 993.83px;
+        padding: 3rem 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fitness-writing{
+        /* width: 930px; */
+        width: 90%;
+
+        /* height: 108.5px; */
+        margin: 3rem 0;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .fitness-writing h1{
+        font-size:170%;
+        text-align: center;
+        font-weight:bolder ;
+        margin-bottom: 0.5rem;
+    }
+    .fitness-writing p{
+        font-size: 120%;
+        font-weight:normal ;
+    
+    }
+    .fitness-cards{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1%;
+        margin: auto;
+        overflow: hidden;
+        /* padding-left: 1rem; */
+        padding: 0 1%;
+    }
+    .fitness-cards img{
+        width: 100%;
+        height: 100%;
+    }
+    /* --------------------------more-degree-- ----------*/
+    .more-degree{
+        width: 100%;
+       
+        height: 800px;
+        margin: 0 -15px;
+    }
+    .more-deg-sub{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .more-deg-writing{
+        /* width:340.66px; */
+        width: 100%;
+        /* height:277.2px ; */
+        height: 25%;
+        padding: 0 15px;
+       margin-top: -10rem;
+    }
+    .more-deg-writing h1{
+        font-size:170%;
+        width: 100%;
+
+    }
+    .more-deg-writing p{
+        width: 100%;
+        font-size: 120%;
+    }
+    .more-deg-cards{
+        width: 100%;
+        height: 80%;
+        margin-top: 100%;
+      
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .more-deg-card{
+        width: 100%;
+        /* height: 318.15px; */
+        height: 100%;
+        /* border-bottom: 2px solid #D20005; */
+        text-align: center;
+        padding: 2%;
+        border: none;
+    }
+    .more-deg-card1{
+        width: 100%;
+        height: 100%;
+    } 
+    .more-deg-card1 p{
+        font-size: 80%;
+    }
+    .more-deg-card h2{
+        font-size: 140%;
+    }
+    .more-deg-card img{
+        width: 50%;
+        height: 50%;
+
+    }
+    /* ----------------------------development--------- */
+    .development{
+        width:100%;
+        height: 963.4px;
+        padding: 1rem 0;
+        margin-top: -10rem;
+    } 
+    .development-cards{
+        width: 100%;
+        height: 920.15px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 2rem;
+    
+    }
+    .development-card{
+        width: 100%;
+        height: 100%;
+        margin-top: 9rem;
+    }
+    .development-card h1{
+        font-size: 200%;
+        font-weight: bolder;
+    }
+    .development-card p{
+        font-size: 120%;
+    }
+    .dev-cards{
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+    .dev-card{
+        width: 100%;
+        height: 100%;
+    }
+    .dev-card2{
+        width: 100%;
+        height: 100%;
+    }
+    .dev-card h1{
+        font-size: 230%;
+        font-weight: bolder;
+        
+        }
+        .dev-sub-card{
+            width: 100%;
+            height: 100%;
+        }
+    .development-card1{
+      
+        /* width:475px; */
+        width: 100%;
+        height: 900.4px;
+        border-bottom-left-radius: 6rem;
+        border-bottom-right-radius:6rem ;
+    
+    }
+    .overlay3{
+        /* width:475px; */
+        width: 100%;
+        height: 900.4px;
+
+        position: relative;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        border-bottom-left-radius: 6rem;
+        border-bottom-right-radius:6rem ;
+    }
+    .overlay3 .h1{
+        /* width: 415px; */
+        width: 100%;
+        /* height: 107.5px; */
+        font-size: 170%;
+      font-weight: 700;
+        margin: auto;
+        /* text-align: center; */
+        padding-top: 1rem;   
+    }
+    .pakages{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .package1{
+        width: 100%;
+    }
+
+    .pakage-sec1{
+        width: 100%;
+    }
+    .pakage-sec1 h1{
+        font-size: 170%;
+    }
+    .pakage-sec1 p{
+        font-size: 100%;
+    }
+    .pakage-sec2{
+        width: 100%;
+    }
+    .pakage-sec2 h1{
+        font-size: 170%;
+    }
+    .pakage-sec2 p{
+        font-size: 100%;
+    }
+    .pakage-sec3{
+        width: 100%;
+    }
+    .pakage-sec4{
+        width: 100%;
+    }
+    .pakage-sec3 h1{
+        font-size: 170%;
+    }
+    .pakage-sec4 h1{
+        font-size: 170%;
+    }
+    .pakage-sec3 p{
+        font-size: 100%;
+    }
+    .pakage-sec4 p{
+        font-size: 100%;
+    }
+
+    /* ---------------------roll model--------------- */
+    .rol-model{
+        width: 100%;
+      height: 100%;
+        padding: 0 1rem;
+        margin-top: 20%;
+      
+    }
+    .rol-model-writing{
+        width: 100%;
+        height: 60%;
+        /* height: 100%; */
+        padding: 0 15px;
+        
+      
+    }
+    .rol-model-writing h1{
+        font-size: 160%;
+        font-weight: bold;
+    }
+    .rol-model-writing p
+{
+    font-size: 100%;
+}
+.rol-models-cards{
+    /* width: 1022px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+.rol-model-sec{
+    width:90% ;
+    height:408.89px ;
+}
+.rol-model-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   width: 90%;
+    height: 408px;
+    margin-left: 0.1%;
+    /* justify-content: space-between; */
+    
+}
+.rol-model-sub-sec{
+    width: 90%;
+}
+.rol-model-sub-sec img
+{
+    width:90% ;
+    height: 302.5px;
+    margin-top: 1rem;
+    padding: 0 4px;
+
+}
+.rol-model-sub-sec1{
+    width: 90%;
+    height: 143px;
+}
+
+.rol-model-sub-sec1 img{
+    width: 90%;
+    height: 143px;
+    margin-top: 1rem;
+    padding: 0 4px;
+}
+.rol-model-card1 img{
+    /* width: 275.91px; */
+    width: 90%;
+    height: 300.54px;
+    margin-top: 1rem;
+}
+.rol-model-card1 {
+    width: 80%;
+    margin-top: 60%;
+
+}
+.role{
+    margin-top: 20rem;
+    display: none;
+}
+/* ----black background-- */
+.black-bg2{
+    width: 100%;
+    /* height: 2160px; */
+    height: 100%;
+
+}
+.overlay4{
+    /* width:1024px; */
+    width: 100%;
+    height: 520.2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: -3rem;
+}
+.manoj{
+   display: none;
+}
+
+.h1{
+    margin-top: 40px;
+}
+.overlay5{
+    width:100%;
+    height: 1680.2px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(71, 70, 70, 0.8);
+}
+.interantional{
+    font-size: 500%;
+    font-family: 'Londrina Outline', cursive;
+    position: relative;
+    bottom: 7rem;
+    left: 5%;
+    color: #fcfafa;font-weight: 100;
+    opacity: 0.4;
+}
+.another-degree{
+    /* color: white; */
+    width: 100%;
+    margin: auto;
+    height: 17%;
+    padding: 1% 0 ;
+    display: none;
+
+}
+.deg-sec4{
+    width:30% ;
+    height: 10%;
+}
+.another-deg-sec{
+    width:330px;
+    height:10% ;
+    padding: 0 15px;
+    /* position: relative; */
+    /* top: 4rem; */
+}
+.another-deg-sec h1{
+    font-size: 200%;
+    font-weight: bolder;
+
+}
+.another-deg-sec p{
+    font-size: 150%;
+}
+.card-1{
+    width: 33%;
+    height: 234.81px;
+    padding:1%;
+}
+.cards1{
+    /* font-size: 1rem; */
+    /* margin-bottom: 0.5rem; */
+    /* margin-right: 5rem; */
+
+    width: 70%;
+    height: 15%;
+}
+/* --four cards sec */
+.four-cards-sec{
+    width: 100%;
+    height: 100%;
+    /* padding:0 15px ; */
+    margin-top:140%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1%;
+}
+.four-cards{
+    width: 100%;
+    height: 30%;
+    padding: 1% 0;
+    
+    
+}
+.st1-card{
+    width: 80%;
+    height: 75%;
+    background-color: #fef5f5;
+    border-radius: 14px;
+    margin: 16px 0 0;
+    /* padding: 0 15px; */
+    
+    }
+    .st1-card img{
+        width:100%;
+        height: 142.11px;
+    }
+   /* -----------fifth cards--- */
+.fifth-card{
+    width: 100%;
+    height: 30%;
+    margin:0 -15px ;
+    padding:1% 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130%;
+}
+.fitth-cards{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(202, 196, 196 );
+    backdrop-filter: blur(8px);
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .fift-card-sec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #fitth-cards{
+        background-color: #FFCC29;
+    height: 110%;
+    }
+    /* -----stratup-sec---- */
+    .startup-section{
+        width: 100%;
+        height: 50%;
+        background-color: #F5F5F5;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-top-left-radius: 10rem;
+        border-top-right-radius: 10rem;
+       
+        
+
+    }
+    .left-sub-sec{
+        width: 100%;
+        /* height: 398.7px; */
+        height: 55%;
+        margin: 128px -15px 0;
+        margin-left: 1rem;
+    
+    }
+    .left-sub-sec h1{
+        font-size: 170%;
+    }
+    .left-sec{
+        width: 100%;
+        height: 879.5px;
+        padding: 0 1rem .5rem;
+    
+    }
+    .red-sec p{
+        font-size: 120%;
+    }
+    .left1{
+        font-size: 170%;
+    }
+    .left-startup--cards{
+        width: 100%;
+        height:50% ;
+        margin-left: 0;
+        display: flex;
+        /* flex-direction: column; */
+       
+        /* align-items: center; */
+        align-items: baseline;
+        margin-top: 20%;
+    
+    }
+    .left-img1{
+        width:100% ;
+        height:100% ;
+    
+    }
+    .left-img2{
+        width:100% ;
+        height:100% ;
+        
+    }
+    .left-img3{
+        width:100% ;
+        height: 100%;
+        
+    }
+
+    .right-sec{
+        width:100% ;
+        height:820.5px ;
+        padding: 0 1rem;
+        margin-left: 1%;
+        background-color: #FFCC29;
+        border-top-right-radius: 10rem;
+    }
+    .right-sec h1{
+        font-size: 230%;
+        font-weight: 900;
+        margin: 128px 0 8px;
+    }
+
+    /* another startup */
+    .another-startup{
+        margin-top: 1%;
+    }
+    .only-write{
+        width: 100%;
+        height: 10%;
+        padding:0 15px 0 48px ;
+        margin: 0 0 0 1%;
+        position: relative;
+        bottom: 1%;
+        margin-top: -20%;
+     
+    }
+    .only-write p{
+        font-size: 110%;
+        margin-bottom: 0.5rem;
+    
+    }
+    .only-write h1{
+        font-size: 150%;
+        
+    }  
+    .another-startup-cards
+{
+    height: 100%;
+    width: 100%;
+    padding-top: 1.5rem;
+    margin-top: 10%;
+}
+.another-startup-card{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: -3rem;
+    /* gap: 1rem; */
+   
+    
+}
+.another-startup-card h5{
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #FFF;
+}
+.another-startup-card p{
+    font-size: 11.52px;
+    margin-bottom: 1rem;
+    color: #FFF;
+}
+.another-card-sec3{
+    height:100%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: start;
+    align-items: baseline;
+    background-position: center;
+    margin-top: 3%;
+}
+.another-writing-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-top: 10rem;
+    text-align: start;
+    padding: 0 0 0 1rem;
+/* margin-top: 21rem; */
+position: relative;
+/* bottom: 10rem; */
+}
+.another-card-sec1{
+    height:100%;
+    width:80%;
+    background-position: center;
+    margin-top: 1%;
+   
+}.another-card-sec2{
+    height:100%;
+    width:80%;
+    background-position: center;
+    margin-top: 1%;
+
+}
+.another-card-sec4{
+    height:100%;
+    width:80%;
+    background-position: center;
+    margin-top: 1%;
+}
+
+/* ----life in pu--- */
+.another-university-img{
+    width: 100%;
+    height: 1026px;
+    background-position: center;
+    margin-top: 100%;
+}
+.university-writing-sec{
+    width: 100%;
+    height: 416px;
+    padding: 3rem 15px 0;
+    text-align: center;
+    /* margin: -224px 0 0; */
+    margin-bottom: 7rem;
+}
+.university-writing-sec h1 span{
+    /* font-size: 70%; */
+}
+.university-writing-sec h1{
+    font-size: 400%;
+}
+.university-writing-sec h2{
+    font-size: 170%;
+}
+.university-writing-sec h3{
+    font-size: 130%;
+}
+/* -----sports culture------ */
+.sports-culture{
+    /* width: 1024px; */
+    width: 100%;
+    /* height: ; */
+    /* display: none; */
+}
+.sports-sec{
+    width: 100%;
+    height:650px;
+    margin: auto;
+    /* display: none; */
+   
+
+}
+.sports-sub-sec {
+    width:90%;
+    height:20%;
+    margin: -3rem 0 0;
+    /* padding: 0 0 3rem; */
+    display: flex;
+    display: none;
+    justify-content: space-between;
+    background-color: #EEEEEE;
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto;
+    margin-bottom: 3rem;
+    
+}
+
+.sports-card-sec{
+    text-align: center;
+    width: 180px;
+    height: 94px;
+    border: 0px solid  white;
+    /* background-color: #D20005; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+/* -----cultur-cards---- */
+
+.culture-cards{
+    width: 100%;
+    height: 774px;
+    /* margin-top: 5rem; */
+margin: auto;
+display: none;
+background-color: #f6f2f2;
+border-bottom-left-radius: 10rem;
+border-bottom-right-radius: 10rem;
+}
+.culture-card{
+    width: 100%;
+    height: 50%;
+    display: flex;
+
+    gap: 2%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+.culture-sub-card{
+    width: 50%;
+}
+.culture-sub-cards {
+    width: 50%;
+    display: flex;
+    gap: 1%;
+}
+.culture-sub-cards1{
+    /* width: 100%; */
+    margin-left: 0%;
+}
+.culture-sub-cards2{
+    /* width: 100%; */
+}
+.culture-sub-cards2 img{
+    padding:  0 0 0.5rem
+
+}
+
+.imge-1{
+    width:100%;
+    height:100%;
+}
+.imge-2{
+width: 100%;
+height:152.7px ;
+margin: 0 1rem;
+}
+.imge-3{
+width:100% ;
+height:100%;
+}
+/* ------last-sec-- */
+.last-second
+{
+
+  
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    bottom:6rem;
+    background-position: center;
+    /* z-index: 1; */
+}
+.overlay6{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+.traning-1{
+    margin-top: 50%;
+}
+
+/* ---last-sec--- */
+.last-sec{
+    /* width: 1010px; */
+    width: 97%;
+    height: 358.4px;
+    padding: 0 15px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60%;
+}
+.last-sec h1{
+    font-size: 170%;
+}
+.last-sec p{
+    font-size: 120%;
+}
+.footer{
+    width: 100%;
+    height: 64px;
+    background-color: #000;
+    color: #f6f2f2;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-sec{
+    width:70% ;
+    height:24px ;
+    margin-bottom: 0 0 0.5rem;
+    font-size: 100%;
+
+
+}
+.footer-sec p{
+    font-size: 100%;
+}
+
+    
+}
+
