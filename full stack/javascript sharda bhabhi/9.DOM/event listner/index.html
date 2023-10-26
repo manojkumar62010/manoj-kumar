@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>manoj kumar</h1>
+    <p id="js"></p>
+    <button onclick="hey()" id="jss"> submit</button>
+
+    <script>
+        document.addEventListener("dblclick",hello);
+        function hello(){
+            document.getElementById("js").innerText="good morning";
+        }
+      function hey(){
+        document.getElementById("jss").innerText="manoj";
+        document.getElementById("jss").style.color="white";
+        document.getElementById("jss").style.backgroundColor="black";
+        document.getElementById("jss").style.padding="10px";
+        document.getElementById("jss").style.border="2px solid red"
+      }
+    </script>
+</body>
+</html>

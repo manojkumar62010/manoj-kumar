@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM part1</title>
+</head>
+<body>
+<!-- id -->
+<p id="one">
+    namaste <span>hello</span>
+    
+</p>
+<ul>
+    <li class="tech">1</li>
+    <li class="tech">2</li>
+    <li class="tech">3</li>
+</ul> 
+
+<!-- by tag name -->
+<h4>manoj</h4>
+<h4>kumar</h4>
+<h4>mhato</h4>
+
+<!-- query selector -->
+<h2>helo</h2>
+<h2 id="hey">hey</h2>
+<h2 class="hi">hi</h2>
+
+    <script >
+       let var1 = document.getElementById("one");
+       console.log(var1.innerHTML);
+       console.log(var1.innerText);
+
+       //class
+      let var2 = document.getElementsByClassName("tech");
+      console.log(var2[2]);
+      var2[1].innerText="manoj"
+      console.dir( document.getElementsByClassName("tech"))
+
+      //tag name
+     let var3= document.getElementsByTagName("h4");
+     console.log(var3[1].innerText);
+     var3[1].innerText="patel";
+     var3[1].style.backgroundColor="red"
+
+     //query selectors
+     let var4=document.querySelector(".hi")
+     console.log(var4);
+     //var4.style.color="pink"
+
+     var4.className="hii"
+
+
+
+    </script>
+</body>
+</html>

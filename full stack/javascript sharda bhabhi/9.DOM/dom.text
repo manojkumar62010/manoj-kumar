@@ -1,0 +1,51 @@
+Dom-: The Dom represents a document with a logical tree.
+it allows us to manipulate/change webpage content (html element)
+
+select by id 
+document.getElementById("id name")
+for object 
+console.dir(document.getElementById("id name"))
+
+selet by class 
+document.getElementByClassName("classname")
+for object 
+console.dir(document.getElementByClassName("classname"))
+
+anything  can acces by the help of Query Selector 
+
+document.querySelector("you can entered idName ,className and element")
+document.querySelectorAll("you can entered idName ,className and element")
+
+
+*manupulating 
+
+1.innerText-: Shows the visible text contained in a node
+eg-:para.innerText
+
+2.textContent-: shows all the full text
+eg-: para.textContent
+
+3.innerHtml-:shows the full markup
+eg-:para.innerHtml
+
+*manipulating attributes
+
+obj.getAttribute(attr)  //getters
+obj.setAttribute(attr,val) //setters
+
+
+eg-: img.getAttribute('class');
+
+img.setAttribute('class','imges')
+
+
+
+*manupulating styling
+
+let img=document.querySelector('img');
+
+
+
+
+
+

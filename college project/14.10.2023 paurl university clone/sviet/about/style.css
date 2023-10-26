@@ -35,7 +35,13 @@ body{
 margin-top: 30%;
 margin-left: 4%;
 }
-
+hr.hr{
+    border-top: 5px solid rgb(246, 181, 1);
+}
+.hr1{
+    width: 10%;
+    border-top: 5px solid rgb(246, 181, 1);
+}
 
 .container-1{
     width: 100%;
